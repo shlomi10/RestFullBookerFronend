@@ -7,6 +7,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg?style=for-the-badge&logo=docker)](https://docs.docker.com/compose/)
 [![GitHub Actions](https://img.shields.io/github/actions/workflow/status/shlomi10/pango/test.yml?label=CI%20Build&style=for-the-badge&logo=github-actions)](https://github.com/shlomi10/RestFullBookerFronend/actions)
 [![Allure Report](https://img.shields.io/badge/Allure%20Report-View%20Live-purple?style=for-the-badge&logo=github)](https://shlomi10.github.io/RestFullBookerFronend/)
+
 This project contains automated UI tests for the Restful Booker web application using Playwright with Python and pytest.
 
 ## Project Structure 📁

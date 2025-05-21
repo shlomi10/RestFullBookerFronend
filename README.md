@@ -58,7 +58,7 @@ pip install -r requirements.txt
 playwright install
 ```
 
-## Configuration
+## ⚙️ Configuration
 Update `.env` inside the `utils/` folder:
 ```ini
 BASE_URL=https://automationintesting.online
@@ -122,7 +122,7 @@ The test results are available on GitHub Pages after workflow completion.
   http://localhost:5050/projects/default/reports/latest/index.html
   ```
 
-## Test Cases
+## 🧪 Test Cases
 1. **Room Management**:
    * `test_add_room`: Add rooms with various options
    * `test_update_room`: Modify existing room data
@@ -144,7 +144,7 @@ playwright show-trace trace/trace.zip
 * `AdminPage`: Admin panel and room manager
 * `EditRoomPage`: Room editing actions
 
-## Contributing 👥
+## 👥Contributing
 1. Fork the repo
 2. Create your branch
 3. Commit changes
@@ -152,7 +152,7 @@ playwright show-trace trace/trace.zip
 
 Follow Conventional Commits for commit messages.
 
-## License 📄
+## 📜 License
 MIT License © 2025 Shlomi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

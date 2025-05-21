@@ -1,7 +1,0 @@
-INFO     tests.test_booker_webApp:test_booker_webApp.py:61 Starting test_update_room
-INFO     tests.test_booker_webApp:test_booker_webApp.py:12 Logging into admin panel
-INFO     tests.test_booker_webApp:test_booker_webApp.py:17 Successfully logged in
-INFO     tests.test_booker_webApp:test_booker_webApp.py:66 Navigated to room 522
-INFO     tests.test_booker_webApp:test_booker_webApp.py:73 Updating room price to 999
-INFO     tests.test_booker_webApp:test_booker_webApp.py:78 New price on page: 999
-INFO     tests.test_booker_webApp:test_booker_webApp.py:80 test_update_room completed successfully

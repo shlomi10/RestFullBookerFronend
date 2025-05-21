@@ -28,10 +28,17 @@ jobs:
         run: docker-compose up --abort-on-container-exit
 
       - name: Upload Allure Results
-        uses: actions/upload-artifact@v3.1.3
+        uses: actions/upload-artifact@v3
         with:
           name: allure-results
           path: ./allure-results
+
+      - name: Download Allure Results
+        uses: actions/download-artifact@v3
+        with:
+          name: allure-results
+          path: allure-results
+
 
   deploy-allure-report:
     needs: ui-tests

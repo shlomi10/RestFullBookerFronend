@@ -1,0 +1,7 @@
+INFO     tests.test_booker_webApp:test_booker_webApp.py:32 Starting test_add_room
+INFO     tests.test_booker_webApp:test_booker_webApp.py:12 Logging into admin panel
+INFO     tests.test_booker_webApp:test_booker_webApp.py:17 Successfully logged in
+INFO     tests.test_booker_webApp:test_booker_webApp.py:38 Generated room_number=364, type=Suite, price=532, accessible=True, features=['Safe', 'WiFi']
+INFO     tests.test_booker_webApp:test_booker_webApp.py:44 Adding room 364
+INFO     tests.test_booker_webApp:test_booker_webApp.py:54 Verifying room existence in admin panel
+INFO     tests.test_booker_webApp:test_booker_webApp.py:56 test_add_room completed successfully

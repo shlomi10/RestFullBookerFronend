@@ -1,0 +1,14 @@
+2025-05-21 14:58:17,134 - INFO - Starting test_add_room
+2025-05-21 14:58:17,134 - INFO - Logging into admin panel
+2025-05-21 14:58:19,405 - INFO - Successfully logged in
+2025-05-21 14:58:19,405 - INFO - Generated room_number=586, type=Single, price=555, accessible=True, features=['Refreshments', 'Views', 'WiFi', 'Safe']
+2025-05-21 14:58:19,405 - INFO - Adding room 586
+2025-05-21 14:58:20,805 - INFO - Verifying room existence in admin panel
+2025-05-21 14:58:20,835 - INFO - test_add_room completed successfully
+2025-05-21 14:58:22,316 - INFO - Starting test_add_room
+2025-05-21 14:58:22,316 - INFO - Logging into admin panel
+2025-05-21 14:58:24,619 - INFO - Successfully logged in
+2025-05-21 14:58:24,620 - INFO - Generated room_number=794, type=Single, price=747, accessible=False, features=['Views', 'TV']
+2025-05-21 14:58:24,620 - INFO - Adding room 794
+2025-05-21 14:58:25,904 - INFO - Verifying room existence in admin panel
+2025-05-21 14:58:26,289 - INFO - test_add_room completed successfully

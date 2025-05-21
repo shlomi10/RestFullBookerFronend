@@ -1,9 +1,10 @@
-# Restful Booker Tests 🏨 
-[![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://www.python.org/) 
-[![Playwright](https://img.shields.io/badge/Playwright-Latest-green)](https://playwright.dev/) 
-[![Pytest](https://img.shields.io/badge/Pytest-Latest-orange)](https://docs.pytest.org/) 
-[![Allure](https://img.shields.io/badge/Allure-Latest-yellow)](https://docs.qameta.io/allure/) 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) 
+
+# Restful Booker Tests 🏨
+[![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-Latest-green)](https://playwright.dev/)
+[![Pytest](https://img.shields.io/badge/Pytest-Latest-orange)](https://docs.pytest.org/)
+[![Allure](https://img.shields.io/badge/Allure-Latest-yellow)](https://docs.qameta.io/allure/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![CI Status](https://github.com/shlomi10/restfulbooker-tests/actions/workflows/ui_tests.yml/badge.svg)](https://github.com/shlomi10/restfulbooker-tests/actions)
 
 This project contains automated UI tests for the Restful Booker web application using Playwright with Python and pytest.
@@ -11,17 +12,17 @@ This project contains automated UI tests for the Restful Booker web application 
 ## Project Structure 📁
 ```
 RestfullBookerFrontend/
-├── pages/                # Page Object Models
+├── pages/
 │   ├── admin_page.py
 │   ├── base_page.py
 │   ├── edit_page_room.py
 │   └── home_page.py
-├── tests/                # Test scripts
+├── tests/
 │   ├── base_class.py
 │   ├── conftest.py
 │   └── test_booker_webApp.py
 ├── utils/
-│   └── .env              # Environment configuration
+│   └── .env
 ├── requirements.txt
 ├── Dockerfile
 ├── docker-compose.yml
@@ -58,7 +59,6 @@ playwright install
 
 ## Configuration
 Update `.env` inside the `utils/` folder:
-
 ```ini
 BASE_URL=https://automationintesting.online
 ADMIN_USER=admin
@@ -84,12 +84,12 @@ pytest tests/ --alluredir=./allure-results
 ## Running with Docker 🐳
 Build and run all tests with Allure:
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 Run a specific test:
 ```bash
-docker-compose run --rm tests pytest tests/test_booker_webApp.py::TestRestfulBookerWebApp::test_add_room
+docker compose run --rm tests pytest tests/test_booker_webApp.py::TestRestfulBookerWebApp::test_add_room
 ```
 
 ## CI/CD Pipeline 🔄
@@ -112,11 +112,14 @@ To manually trigger the workflow:
 The test results are available on GitHub Pages after workflow completion.
 
 ## 🔎 View Allure Report
-After tests finish, open:
-```
-http://localhost:5050/projects/default/reports/latest/index.html
-```
-The report auto-updates every few seconds.
+
+- 🔗 GitHub Pages (CI):
+  [https://shlomi10.github.io/RestFullBookerFronend/](https://shlomi10.github.io/RestFullBookerFronend/)
+
+- 🌐 Local (Docker):
+  ```
+  http://localhost:5050/projects/default/reports/latest/index.html
+  ```
 
 ## Test Cases
 1. **Room Management**:

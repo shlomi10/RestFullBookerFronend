@@ -1,7 +1,0 @@
-2025-05-21 15:26:41,680 - INFO - Starting test_add_room
-2025-05-21 15:26:41,680 - INFO - Logging into admin panel
-2025-05-21 15:26:43,733 - INFO - Successfully logged in
-2025-05-21 15:26:43,733 - INFO - Generated room_number=480, type=Single, price=194, accessible=True, features=['WiFi', 'Refreshments', 'TV']
-2025-05-21 15:26:43,733 - INFO - Adding room 480
-2025-05-21 15:26:44,318 - INFO - Verifying room existence in admin panel
-2025-05-21 15:26:44,695 - INFO - test_add_room completed successfully

@@ -1,0 +1,35 @@
+2025-05-21 15:28:52,660 - INFO - Starting test_add_room
+2025-05-21 15:28:52,660 - INFO - Logging into admin panel
+2025-05-21 15:28:54,938 - INFO - Successfully logged in
+2025-05-21 15:28:54,938 - INFO - Generated room_number=365, type=Single, price=551, accessible=True, features=['Radio']
+2025-05-21 15:28:54,938 - INFO - Adding room 365
+2025-05-21 15:28:55,465 - INFO - Verifying room existence in admin panel
+2025-05-21 15:28:55,846 - INFO - test_add_room completed successfully
+2025-05-21 15:28:57,209 - INFO - Starting test_add_room
+2025-05-21 15:28:57,210 - INFO - Logging into admin panel
+2025-05-21 15:28:59,482 - INFO - Successfully logged in
+2025-05-21 15:28:59,482 - INFO - Generated room_number=809, type=Single, price=341, accessible=False, features=['Views', 'TV']
+2025-05-21 15:28:59,482 - INFO - Adding room 809
+2025-05-21 15:29:01,197 - INFO - Verifying room existence in admin panel
+2025-05-21 15:29:01,586 - INFO - test_add_room completed successfully
+2025-05-21 15:29:03,005 - INFO - Starting test_add_room
+2025-05-21 15:29:03,005 - INFO - Logging into admin panel
+2025-05-21 15:29:05,389 - INFO - Successfully logged in
+2025-05-21 15:29:05,389 - INFO - Generated room_number=741, type=Twin, price=653, accessible=True, features=['Radio', 'Refreshments', 'TV', 'Safe', 'Views']
+2025-05-21 15:29:05,389 - INFO - Adding room 741
+2025-05-21 15:29:06,195 - INFO - Verifying room existence in admin panel
+2025-05-21 15:29:07,073 - INFO - test_add_room completed successfully
+2025-05-21 15:29:08,259 - INFO - Starting test_add_room
+2025-05-21 15:29:08,259 - INFO - Logging into admin panel
+2025-05-21 15:29:10,739 - INFO - Successfully logged in
+2025-05-21 15:29:10,739 - INFO - Generated room_number=931, type=Twin, price=612, accessible=False, features=['Refreshments', 'Safe', 'Radio', 'TV', 'Views', 'WiFi']
+2025-05-21 15:29:10,739 - INFO - Adding room 931
+2025-05-21 15:29:12,645 - INFO - Verifying room existence in admin panel
+2025-05-21 15:29:13,525 - INFO - test_add_room completed successfully
+2025-05-21 15:29:14,789 - INFO - Starting test_add_room
+2025-05-21 15:29:14,789 - INFO - Logging into admin panel
+2025-05-21 15:29:17,294 - INFO - Successfully logged in
+2025-05-21 15:29:17,294 - INFO - Generated room_number=709, type=Double, price=337, accessible=True, features=['Radio']
+2025-05-21 15:29:17,295 - INFO - Adding room 709
+2025-05-21 15:29:18,383 - INFO - Verifying room existence in admin panel
+2025-05-21 15:29:19,264 - INFO - test_add_room completed successfully

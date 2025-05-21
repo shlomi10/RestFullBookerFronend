@@ -1,12 +1,12 @@
 
 # Restful Booker Tests 🏨
-[![Python](https://img.shields.io/badge/Python-3.12%2B-blue)](https://www.python.org/)
-[![Playwright](https://img.shields.io/badge/Playwright-Latest-green)](https://playwright.dev/)
-[![Pytest](https://img.shields.io/badge/Pytest-Latest-orange)](https://docs.pytest.org/)
-[![Allure](https://img.shields.io/badge/Allure-Latest-yellow)](https://docs.qameta.io/allure/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Status](https://github.com/shlomi10/restfulbooker-tests/actions/workflows/ui_tests.yml/badge.svg)](https://github.com/shlomi10/restfulbooker-tests/actions)
-
+[![Playwright](https://img.shields.io/badge/Playwright-1.52.0-green.svg?style=for-the-badge&logo=playwright&logoColor=white)](https://playwright.dev/)
+[![Python](https://img.shields.io/badge/Python-3.12-blue.svg?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Pytest](https://img.shields.io/badge/Pytest-Test_Framework-green.svg?style=for-the-badge&logo=pytest)](https://docs.pytest.org/)
+[![Allure](https://img.shields.io/badge/Allure-Reports-orange.svg?style=for-the-badge&logo=allure)](https://docs.qameta.io/allure/)
+[![Docker](https://img.shields.io/badge/Docker-Compose-blue.svg?style=for-the-badge&logo=docker)](https://docs.docker.com/compose/)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/shlomi10/pango/test.yml?label=CI%20Build&style=for-the-badge&logo=github-actions)](https://github.com/shlomi10/RestFullBookerFronend/actions)
+[![Allure Report](https://img.shields.io/badge/Allure%20Report-View%20Live-purple?style=for-the-badge&logo=github)](https://shlomi10.github.io/RestFullBookerFronend/)
 This project contains automated UI tests for the Restful Booker web application using Playwright with Python and pytest.
 
 ## Project Structure 📁

@@ -1,6 +1,0 @@
-INFO     tests.test_booker_webApp:test_booker_webApp.py:85 Starting test_delete_room
-INFO     tests.test_booker_webApp:test_booker_webApp.py:12 Logging into admin panel
-INFO     tests.test_booker_webApp:test_booker_webApp.py:17 Successfully logged in
-INFO     tests.test_booker_webApp:test_booker_webApp.py:90 Room count before delete: 40
-INFO     tests.test_booker_webApp:test_booker_webApp.py:97 Room count after delete: 39
-INFO     tests.test_booker_webApp:test_booker_webApp.py:99 test_delete_room completed successfully

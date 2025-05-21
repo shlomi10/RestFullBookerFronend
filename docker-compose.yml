@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ui-tests
+    volumes:
+      - ./allure-results:/app/allure-results
+      - ./screenshots:/app/screenshots
+      - ./trace:/app/trace
+      - ./ui_tests-logs:/app/ui_tests-logs
+    environment:
+      - BASE_URL=${BASE_URL:-https://automationintesting.online}
+      - ADMIN_USER=${ADMIN_USER:-admin}
+      - ADMIN_PW=${ADMIN_PW:-password}
+      - HEADLESS=true
+    command: pytest tests/ --alluredir=./allure-results --clean-alluredir
+    depends_on:
+      - allure
+
+  allure:
+    image: frankescobar/allure-docker-service
+    container_name: allure-server
+    ports:
+      - "5050:5050"
+    environment:
+      CHECK_RESULTS_EVERY_SECONDS: 2
+      KEEP_HISTORY: "TRUE"
+    volumes:
+      - ./allure-results:/app/allure-results

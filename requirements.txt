@@ -1,0 +1,9 @@
+allure_python_commons
+playwright
+pytest
+pytest_playwright
+pytest-html-reporter
+pur
+allure-pytest
+python-dotenv
+requests

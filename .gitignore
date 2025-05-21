@@ -1,0 +1,23 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Allure results
+allure-results/
+
+# Ignore UI test logs
+ui_tests-logs/
+
+# Ignore test output files
+output.json
+pytest_html_report.html
+
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+
+# VSCode settings (if applicable)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

@@ -99,7 +99,7 @@ This project uses GitHub Actions for continuous integration and deployment of te
 ### GitHub Actions Workflow
 
 The workflow automatically:
-- Runs tests on pushes to main branch and pull requests
+- Runs tests on pushes to the main branch and pull requests
 - Executes tests in Docker containers
 - Generates Allure reports
 - Publishes reports to GitHub Pages
@@ -147,7 +147,7 @@ playwright show-trace trace/trace.zip
 1. Fork the repo
 2. Create your branch
 3. Commit changes
-4. Open pull request
+4. Open a pull request
 
 Follow Conventional Commits for commit messages.
 
@@ -164,7 +164,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
